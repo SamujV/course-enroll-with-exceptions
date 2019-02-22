@@ -6,7 +6,7 @@ import customExceptions.QuotaEnrollExceedException;
 import model.Course;
 
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String... args) {
 		Course myCourse;
 		Scanner sc = new Scanner(System.in);
 		
